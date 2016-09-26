@@ -95,7 +95,7 @@ def on_mouse_click(event,x,y,flags,param):
 		print('Phase edges = ',phase2.size)
 		
 		#helper text
-		print('Click on the image to get some informations or press ENTER to exit\n')
+		print('Click on the image or press ENTER to exit\n')
 
 #draw the initial window
 cv2.namedWindow('Image2')

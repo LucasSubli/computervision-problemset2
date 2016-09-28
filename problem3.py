@@ -35,7 +35,7 @@ amp2Phase1 = np.zeros((width,height,2))
 #convert it back
 amp2Phase1[:,:,0], amp2Phase1[:,:,1] = cv2.polarToCart(magnitude, phase)
 
-#plot the images
+#plot the images and the DFT
 plt.subplot(131),plt.imshow(img, cmap = 'gray')
 plt.title('Input Image'), plt.xticks([]), plt.yticks([])
 plt.subplot(132),plt.imshow(magnitude, cmap = 'gray')
